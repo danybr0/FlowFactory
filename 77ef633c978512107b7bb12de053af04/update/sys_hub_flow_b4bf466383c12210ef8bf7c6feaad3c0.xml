@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=firefox,integrationActivatedIn=integrated,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>autoupdate_user_records_without_email_value</internal_name>
+        <label_cache>[{"name":"2fb815ec-c8a3-4a9b-aa4c-a35f4622d928.Records","label":"1 - Look Up Records➛User Records","reference":"sys_user","reference_display":"User Records","type":"records","base_type":"records","usedInstances":{"b96a669d-a655-4287-853d-6150dbf36c40":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b96a669d-a655-4287-853d-6150dbf36c40.item","label":"2 - For Each➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"95998b32-d24b-451b-83d6-9e386fd4997b":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Auto-Update User Records Without Email Value</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-27 21:19:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b4bf466383c12210ef8bf7c6feaad3c0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Auto-Update User Records Without Email Value</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FlowFactory" source="x_393895_flowfacto">77ef633c978512107b7bb12de053af04</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FlowFactory">77ef633c978512107b7bb12de053af04</sys_scope>
+        <sys_update_name>sys_hub_flow_b4bf466383c12210ef8bf7c6feaad3c0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 21:37:30</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=b4bf466383c12210ef8bf7c6feaad3c0"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b4bf466383c12210ef8bf7c6feaad3c0"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=b4bf466383c12210ef8bf7c6feaad3c0"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=b4bf466383c12210ef8bf7c6feaad3c0^sys_idNOT INbcbf466383c12210ef8bf7c6feaad3c2"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>b4bf466383c12210ef8bf7c6feaad3c0</id>
+        <name>Auto-Update User Records Without Email Value</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-27 21:19:21</sys_created_on>
+        <sys_id>bcbf466383c12210ef8bf7c6feaad3c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 21:19:21</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=bcbf466383c12210ef8bf7c6feaad3c2"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=b4bf466383c12210ef8bf7c6feaad3c0"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=b4bf466383c12210ef8bf7c6feaad3c0"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b4bf466383c12210ef8bf7c6feaad3c0"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=b4bf466383c12210ef8bf7c6feaad3c0^sys_idNOT INbed39ea783c12210ef8bf7c6feaad353"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment>Run this scheduled flow daily at 23:00 PM</comment>
+        <display_text/>
+        <flow display_value="Auto-Update User Records Without Email Value">b4bf466383c12210ef8bf7c6feaad3c0</flow>
+        <name>Daily</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-27 21:37:30</sys_created_on>
+        <sys_id>bed39ea783c12210ef8bf7c6feaad353</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 21:37:30</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/21Sy27bMBD8lYJnV6Cs9KVbgMBAD22AxsglCIQVubIJLB+lKCdqkH/vUmKM1q3AC2d3Z2dGfHgRBD2SaMXeWBQbYVzC6ID2c0BGD2Q0dmmtWXAako+zaFOccCOG6O0ebSBI3DwAjQz6qDGKtpZyI05AE97N41fNXMzgwGbWwrdU+Vp/+STfy5rPu23TSsmHq+poSEd0on143IgAkWdTZn65KCWW2l3ayAsb0FeolVTNlj8pt5+v6v5j09db3QDiB+67GPtbX/pPBn+6w+eETqM+W/8noIigbx3N544j57tGYeF5NL+wUEUckA0pXIvna6fNyPHOK6yO3ii8Dcl4tyIJeiozytNk3ffVAd81DjBRui8hMzKNzIcha84qiqTh7uiffrwt3Bm3GCxF8grofIOUoumnhGP+C0homaizEIJxhy5EfzLLMGux1RJbNZB/4qWjObgKVBZecURQ7Ri/WeB7iCa7+MY0PPy6uO9+Tnnv6qMo7lbT3FBC2Rmk8rBGFU1I17zg9PYSXx9/A/8b1Y/eAgAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=b4bf466383c12210ef8bf7c6feaad3c0^sys_idNOT IN7ad39ea783c12210ef8bf7c6feaad357,f6d39ea783c12210ef8bf7c6feaad355"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment>Update user's email with No Email-id applicable</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Auto-Update User Records Without Email Value">b4bf466383c12210ef8bf7c6feaad3c0</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>b96a669d-a655-4287-853d-6150dbf36c40</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-27 21:37:30</sys_created_on>
+        <sys_id>7ad39ea783c12210ef8bf7c6feaad357</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="FlowFactory">77ef633c978512107b7bb12de053af04</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 21:37:30</sys_updated_on>
+        <ui_id>95998b32-d24b-451b-83d6-9e386fd4997b</ui_id>
+        <values>H4sIAAAAAAAA/+1U0WrbMBT9leBnx8hx7CV5K2SBPSyFbutLV4wsXScCWfZkOW0W8u+7suU0zdY2lMAYzG/3WPeec64Outt5gnszbwychNMwYVEYRSNCRpNxmCVRFo54RAFCz/cULQBPamCl5lhvqGwssNtl04QmyZQPaRLHw/Fo8mE4iSM+TMKY8CyPEjYmgTBQ7PfYx0VdSbq9de2IsLWQXIPyZnf3vldRjUwGtDfbnfwy2wpSSTOQ2DgvWVOAMoNPc5xxrou++6a3cWrLcmDN3fRUWBB/WT0h8T14NKA4IF1OZQ2+V1DFqSn11psZ3SCggfJrJbeHE2uhTOe0oI+1+Inzx8SeywGtMbeFQ5m6DfXLKQWD68qIUnWIoZnsN1fKplDLzoLdLeS0keZot02N86Cykq2ITmH+ZV0+3PR8C6Fad06tLBmVh4oao0XWGKjtdYCEdikFrSqhVmmly41om1FKEawkFkEuywfkrMVKBZRZ3QEuiAYLxOctfEu1sCY+4xhs3rfm0x+N5e1sOMFp67k1nLYXhUdrpkVlrnDwBpzMve9inMWvBYBNn+77aOZTlOttneLC9O8p/dah70vqV8s1WHZc5+p81vyCbpfVZ5iLanyxqE7+UlSdon8sq28llIxefaKObroNZX2UTiiokN8bQiK+LAcfbTUUfIC6pGAuJSexPaflnZmGAokMDDoq/2x3/YCFAMnrP9jtQ+0I0o0jOLzBF0t2mJD2+/8UX/Apvv8FJfs10lMIAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment>Look up all the active users without email value (both human and non-human accounts)</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Auto-Update User Records Without Email Value">b4bf466383c12210ef8bf7c6feaad3c0</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-27 21:37:30</sys_created_on>
+        <sys_id>f6d39ea783c12210ef8bf7c6feaad355</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="FlowFactory">77ef633c978512107b7bb12de053af04</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 21:37:30</sys_updated_on>
+        <ui_id>2fb815ec-c8a3-4a9b-aa4c-a35f4622d928</ui_id>
+        <values>H4sIAAAAAAAA/9VX30/bMBD+V6o8R1VCSmG8TTAkHoAJGNLUMcuJndaa42S201IQ//vOsZOGNkApFYNHn+/Hd3ffXZzRvceId+Dtp4MgwOHu/l4QRFEQDIdRgsM4joZJHMSD2PM9gTMKmhrHnMJxinlpzmquUKmoBBFhquB4fu1uflhpMmGcSCq8g9GN7xVYgh8NNwf3S1d6XlDEcUw5GF+ZML0zE9NfG+Ij41XIJkB9RMK6ziUxWALfo7eaCkIhVIq5or6XYUGwzuW8kUiKybngC8GECQ0ePaN8q9gduN8PjF5KIa2E2rvmiFyFrDiZ5Cyh54VmubASC9Re5rzMxJlNwNSWprjkuq4tSKDoiNDCYDYgHKL0cpLPLuqAx0xU6blLnieYNyestWRxqakyvaCcZuAIZbgomBijQuZTVhkDlqw/5nDopzyfQVDFxqKPEwO8DyXC/WOQH1XiayyZyeIU3FTtTxmHbiNbdJWXsqrKFCW8VNWFxEJZX95DVSv0tzQobdYuP2RLBAoqkazQX8FgSl0qD/5aLN4NFpRIckGYialaVMaV018lGBMtS/qbZpjxk8tvp9+vfq7y+yX1zYh/2Ea2bladxl2puhF4JHMjEG5tBADufxoC04YPNwMvsdom/AK1k71nSbC76LfKpUa2ci1ur9J3Y4YeM8rJo9W8Brja+NyQrRfPn8LrCJqaGEs7eufT7+g30jMlyNaFCc5E9SkDhxDmA/M2eH55fVniQdX+1uPCyLBKOpZvT+e9u823bNXXmr9rgKwNLwFR78qi7ABe79favaNutDXqRjuvoy4QZ3TfoG+q1lHg+iVkWlfr3xl9vKwPJGoZhA83DfUPN4sZvjbmjom5NJvRq4azzSx7c/QEwbb8znrnIfZNwAmYunjIDiuaMTKmehG91iK5nmH+p+vesauZoSq9N7/ZBs/O3jBczBnMAJJUQavaj7YQHhur6yH0rXiz7XAiNB1XxVsXYm15im97Fw3GTuBuRbAmhuP0YIvvr/f4vNWF75yeuv6f4idlUwrf/AOp/I25Pg8AAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=b4bf466383c12210ef8bf7c6feaad3c0"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=b4bf466383c12210ef8bf7c6feaad3c0^sys_idNOT IN76d39ea783c12210ef8bf7c6feaad356"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">bed39ea783c12210ef8bf7c6feaad355</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Auto-Update User Records Without Email Value">b4bf466383c12210ef8bf7c6feaad3c0</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-27 21:37:30</sys_created_on>
+        <sys_id>76d39ea783c12210ef8bf7c6feaad356</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="FlowFactory">77ef633c978512107b7bb12de053af04</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 21:37:30</sys_updated_on>
+        <ui_id>b96a669d-a655-4287-853d-6150dbf36c40</ui_id>
+        <values>H4sIAAAAAAAA/51TTW/bMAz9Lzonhj/SIM6twFCgh61AV/QyFAYt0YkwWdL0kdQz/N9HxU469DTsZPGRfHxPlEdmYrAx+Bdz7708aLb/8bZiUieMziOTgu1ZUYuuLvKaV+W2KvO83G2Kdlu1RSkqQLFlK6ahR6qUAXtP4QlUTPE4ll27K+6Qr/kOqvUG6nYNsOFrqO66zbYsRV3usmfkxgk/TdQqpLcKhtf/Z+BHqYTDxYwFR9oCOrYfP6XCYLFR0KKiQQsD9f+r52vn42L60x0kdgrdjZc+SUWZrxi+B9QCaVAHyuOK9aAFBOMGtg8uEuAQxJNWw63iKHUgOpZq3738TdxFnqfCDskRxzl5C5vlImeYH43k+GSDNHpGArRq6eFGxV5/m+WnFWAHUYXrCgiJnvjQJs1JxSKp+3405+frwAepL/6WpDIc1C2CEJxsY0Cf1oAKeyJqerBW6kNjnTnJSzNp6bODoiDrlDnT0PQsM+BJeEZXBNkD4V8u8Cs4mVx8JRpqni7um18xzZ19LIqb2TQVeO6kDfdEd8JF3PSW3uvM5OeHIZBLTwNfEvZ4/RtSYqAlS/43dDbuZ5L6gU1/AKDVntRXAwAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=b4bf466383c12210ef8bf7c6feaad3c0"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=b4bf466383c12210ef8bf7c6feaad3c0"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_b4bf466383c12210ef8bf7c6feaad3c0"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_b4bf466383c12210ef8bf7c6feaad3c0"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=b4bf466383c12210ef8bf7c6feaad3c0"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=b4bf466383c12210ef8bf7c6feaad3c0"/>
+</record_update>
